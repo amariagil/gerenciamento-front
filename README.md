@@ -1,27 +1,29 @@
+# Front-End da Aplicação de Gerenciamento de Veiculos
+
+Um a aplicação de gerenciamento de veiculos, desenvolvido com Spring Boot no backend e Angular no frontend. Permite cadastrar e remover veículos, fazer reservas e buscar carros disponíveis. Este repositório contém o código fonte do backend e do frontend. Recomendo abrir um em cada arquivo, pois é necessário rodar ambos ao mesmo tempo, para que se possa ver a API completa. Essa API tem como proposito o gerenciamento de uma loja que realiza alugueis de veículos, e se encontrava em necessidade de um gerenciador de veículos e reservas.
+
 # Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
+Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0,e teve a utlização da bilioteca Angular Material, durante seu desenvolvimento, é necessário que seja adicionado através do terminal: ng add @angular/material. Além do uso do Angular Material, também tivemos o uso do BootStrap, por meio CDN, então não há a necessidade da instalação.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Para iniciar o servidor, se usa `ng serve` no terminal. Digite a URL `http://localhost:4200/`. A aplicação vai automaticamente se atualizar enquanto ligada.
 
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+O trecho `ng generate component component-name` é usado para gerar um componente.
 
-## Build
+## Uso
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Caso queira ver as rotas em acão, dessa vez em tabelas e botões, primeiramente, é necessário iniciar sua aplicação e ir para a URL http://localhost:4200/. O programa se encontra com apenas umapagina principal, amas essa pagina tem uma tabela que permite apagar, visualizar a tabela e cadastrar.
 
-## Running unit tests
+## Tela
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Logo abaixo, temos a primeira parte da tela: A tabela de cadastro!
 
-## Running end-to-end tests
+![Minha tabela de Cadastro de Veiculos!](imgs/imgcadastro.png);
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+A seguir temos a tabela mesmo, com todos os veiculos cadastrados!
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![Minha tabela de Veiculos!](imgs/tabela.png);
