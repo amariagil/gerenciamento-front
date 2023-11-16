@@ -1,0 +1,39 @@
+
+<h2>Cadastro</h2>
+<form >
+  >
+  <div class="row g-3">
+    <div class="col-sm">
+      <input type="text" class="form-control" placeholder="Modelo" aria-label="Modelo">
+    </div>
+    <div class="col-sm">
+      <input type="text" class="form-control" placeholder="Marca" aria-label="Marca">
+    </div>
+    <div class="col-sm">
+      <input type="text" class="form-control" placeholder="Cor" aria-label="Cor">
+    </div>
+  </div>
+  <div class="row g-3">
+    <div class="col-sm">
+      <input type="text" class="form-control" placeholder="Ano Fabricado" aria-label="Ano Fabricado">
+    </div>
+    <div class="col-sm">
+      <input type="text" class="form-control" placeholder="Placa" aria-label="Placa">
+    </div>
+    <div class="col-auto">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+        <label class="form-check-label" for="autoSizingCheck">
+          Reserva
+        </label>
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <div class="botoes">
+      <button class="btn2" type="submit" mat-raised-button color="primary">Cadastrar</button>
+      <button type="button" mat-raised-button color="primary" (click)="fecharPopup()">Fechar</button>
+    </div>
+  </section>
+</form>
